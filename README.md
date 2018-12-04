@@ -212,7 +212,7 @@ Some screenshots:
 
 GDB Session
 
-![LOP Wiedergaenger GDB](/LOP-widergaenger-gdb.png)
+![LOP Wiedergaenger GDB](/wiedergaenger-gdb.png)
 
 
 One RCE Gadgets available:
