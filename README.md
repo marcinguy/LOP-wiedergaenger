@@ -145,20 +145,17 @@ Reading symbols from ./test...done.
 Breakpoint 1 at 0x400535: file test.c, line 8.
 (gdb) r
 Starting program: /home/mk/wiedergaenger/test 
-warning: the debug information found in "/lib64/ld-2.23.so" does not match "/lib64/ld-linux-x86-64.so.2" (CRC mismatch).
-
 
 Breakpoint 1, main (argc=1, argv=0x7fffffffdb68) at test.c:8
 8	  ptr = malloc(0x200000);
 (gdb) cont
 Continuing.
-process 14480 is executing new program: /bin/dash
+process 20512 is executing new program: /bin/dash
 Error in re-setting breakpoint 1: Function "main" not defined.
-warning: the debug information found in "/lib64/ld-2.23.so" does not match "/lib64/ld-linux-x86-64.so.2" (CRC mismatch).
-
 H�5C8: 1: ^e��: not found
-[Inferior 1 (process 14480) exited with code 0177]
+[Inferior 1 (process 20512) exited with code 0177]
 (gdb) 
+
 
 
 I don't fullfill the gadget constraints $rax to be NULL, hence the funny error above. You can see however that the execution flow was taken over. With the right One RCE gadget a successful shell would be spawned and/or desired code would be executed.
