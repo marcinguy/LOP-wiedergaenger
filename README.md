@@ -10,6 +10,14 @@ nisms such as relro and glibc’s pointer mangling enabled) there exist easy-to-
 
 
 ```
+
+$ cat /etc/lsb-release 
+DISTRIB_ID=Ubuntu
+DISTRIB_RELEASE=16.04
+DISTRIB_CODENAME=xenial
+DISTRIB_DESCRIPTION="Ubuntu 16.04.5 LTS"
+
+
 $ apt-show-versions libc6      
 libc6:amd64/xenial-security 2.23-0ubuntu10 uptodate
 libc6:i386/xenial-security 2.23-0ubuntu10 uptodate
