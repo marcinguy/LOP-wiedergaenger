@@ -87,7 +87,7 @@ Original-Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
 
 
 
-md5sum /lib/x86_64-linux-gnu/ld-2.23.so
+$ md5sum /lib/x86_64-linux-gnu/ld-2.23.so
 f5ebf0bbc32238922f90e67cb60cdf7e  /lib/x86_64-linux-gnu/ld-2.23.so
 
 
@@ -124,7 +124,7 @@ For bug reporting instructions, please see:
 
 GDB
 
- gdb ./test           
+$ gdb ./test           
 GNU gdb (Ubuntu 7.11.1-0ubuntu1~16.5) 7.11.1
 Copyright (C) 2016 Free Software Foundation, Inc.
 License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
