@@ -7,7 +7,7 @@ access vulnerabilities occurring in specifically allocated memory regions to ful
 
 Wiedergänger-attacks abuse determinism in Linux ASLR implementation combined with the fact that (even with protection mechanisms such as relro and glibc’s pointer mangling enabled) there exist easy-to-hijack, writable (function) pointers in application memory."
 
-Source Repo: https://github.com/kirschju/wiedergaenger
+Original Authors Repo: https://github.com/kirschju/wiedergaenger
 
 
 ```
