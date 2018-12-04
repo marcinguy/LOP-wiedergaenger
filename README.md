@@ -1,5 +1,5 @@
 # LOP-wiedergaenger
-Dynamic Loader Oriented Programming - Wiedergaenger PoC
+Dynamic Loader Oriented Programming - Wiedergaenger PoC (Proof of Concept)
 
 
 "In the following, we describe the Wiedergänger-Attack, a new attack vector that reliably allows to escalate unbounded array
