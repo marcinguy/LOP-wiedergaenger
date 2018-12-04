@@ -160,7 +160,7 @@ H�5C8: 1: ^e��: not found
 (gdb) 
 
 
-I dont fullfill the gadget constraints $rax to be NULL, here the funny error above. You can see however that the execution flow was taken over. With the right One RCE gadget a successful shell would be spawned and/or desired code would be executed.
+I dont fullfill the gadget constraints $rax to be NULL, hence the funny error above. You can see however that the execution flow was taken over. With the right One RCE gadget a successful shell would be spawned and/or desired code would be executed.
 
 
 
