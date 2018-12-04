@@ -5,8 +5,7 @@ Dynamic Loader Oriented Programming - Wiedergaenger PoC
 In the following, we describe the Wiedergänger-Attack, a new attack vector that reliably allows to escalate unbounded array
 access vulnerabilities occurring in specifically allocated memory regions to full code execution on programs running on i386/x86_64 Linux.
 
-Wiedergänger-attacks abuse determinism in Linux ASLR implementation combined with the fact that (even with protection mecha-
-nisms such as relro and glibc’s pointer mangling enabled) there exist easy-to-hijack, writable (function) pointers in application memory.
+Wiedergänger-attacks abuse determinism in Linux ASLR implementation combined with the fact that (even with protection mechanisms such as relro and glibc’s pointer mangling enabled) there exist easy-to-hijack, writable (function) pointers in application memory.
 
 
 ```
