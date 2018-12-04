@@ -144,6 +144,9 @@ H�5C8: 1: ^e��: not found
 (gdb) 
 
 
+I dont fullfill the gadget constraints $rax to be NULL, here the funny error above.
+
+
 Source:
 
 
