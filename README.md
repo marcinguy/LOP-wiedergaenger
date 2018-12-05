@@ -1,6 +1,9 @@
 # LOP-wiedergaenger
 Dynamic Loader Oriented Programming - Wiedergaenger PoC (Proof of Concept)
 
+My experiences and reproduction on Ubuntu 16.04.5 LTS
+
+Quoting the whitepaper:
 
 "In the following, we describe the Wiedergänger-Attack, a new attack vector that reliably allows to escalate unbounded array
 access vulnerabilities occurring in specifically allocated memory regions to full code execution on programs running on i386/x86_64 Linux.
@@ -158,7 +161,7 @@ H�5C8: 1: ^e��: not found
 
 
 
-I don't fullfill the gadget constraints $rax to be NULL, hence the funny error above. You can see however that the execution flow was taken over. With the right One RCE gadget a successful shell would be spawned and/or desired code would be executed.
+I don't fullfill the gadget constraints $rax to be NULL, hence the funny error above. You can see however that the execution flow was taken over. With the right One RCE gadget, a successful shell would be spawned and/or desired code would be executed.
 
 
 
