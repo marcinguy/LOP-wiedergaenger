@@ -3,7 +3,7 @@ Dynamic Loader Oriented Programming - Wiedergaenger PoC (Proof of Concept)
 
 My experiences and reproduction on Ubuntu 16.04.5 LTS
 
-Quoting the whitepaper:
+Quoting the [whitepaper](/kirsch-roots-2017-paper.pdf):
 
 "In the following, we describe the Wiedergänger-Attack, a new attack vector that reliably allows to escalate unbounded array
 access vulnerabilities occurring in specifically allocated memory regions to full code execution on programs running on i386/x86_64 Linux.
