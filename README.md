@@ -232,7 +232,7 @@ Example with Shell (instead of One RCE gadget I pointed to func())
 Below is the disassembly:
 
 ```
-objdump -d test2
+$ objdump -d test2
 
 test2:     file format elf64-x86-64
 
