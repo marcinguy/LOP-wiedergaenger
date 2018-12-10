@@ -479,3 +479,14 @@ Disassembly of section .fini:
   400728:	48 83 c4 08          	add    $0x8,%rsp
   40072c:	c3                   	retq   
 ```
+
+Checksec
+
+```
+$ ./checksec --file test
+RELRO           STACK CANARY      NX            PIE             RPATH      RUNPATH	Symbols		FORTIFY	Fortified	Fortifiable  FILE
+Partial RELRO   No canary found   NX enabled    No PIE          No RPATH   No RUNPATH   72 Symbols     No	0		0	test
+$ ./checksec --file test2
+RELRO           STACK CANARY      NX            PIE             RPATH      RUNPATH	Symbols		FORTIFY	Fortified	Fortifiable  FILE
+Partial RELRO   Canary found      NX enabled    No PIE          No RPATH   No RUNPATH   75 Symbols     Yes	0		0	test2
+```
