@@ -221,3 +221,10 @@ GDB Session
 One RCE Gadgets available:
 
 ![One RCE Gadget](/one-rce-gadget.png)
+
+
+Example with Shell (instead of One RCE gadget I pointed to func())
+
+
+![LOP Wiedergaenger Shell](/wiedergaenger-2-shell.png)
+
